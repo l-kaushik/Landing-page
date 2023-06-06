@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto','Times New Roman', Times, serif;
 }
 
 .head-container{
@@ -93,3 +93,39 @@ a{
     color: #E5E7EB;
 }
 
+.mid-container .top{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.mid-container .title{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    width: auto;
+}
+
+.grid-container{
+    display: flex;
+    gap: 40px;
+}
+
+.grid p{
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 150px;
+    color: #4e4d4d;
+    font-size: 18px;
+}
+
+.illustration{
+    border: 5px solid #3864f6;
+    border-radius: 10px;
+    height: 170px;
+    width: 150px;
+}
