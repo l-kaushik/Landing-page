@@ -211,3 +211,11 @@ a{
 }
 
 /* footer */ 
+.footer{
+    padding: 50px;
+    width: auto;
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
